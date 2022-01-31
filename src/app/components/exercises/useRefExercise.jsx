@@ -6,6 +6,7 @@ const UseRefExercise = () => {
         blockRef.current.style.height = "150px";
         blockRef.current.style.width = "80px";
         blockRef.current.textContent = "Tеxt";
+        // blockRef.current.children[0].innerText = "Tеxt";
     };
 
     return (

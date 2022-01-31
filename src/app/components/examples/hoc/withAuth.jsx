@@ -14,6 +14,15 @@ const withAuth = (Component) => (props) => {
         setIsAuth(localStorage.getItem("user"));
     };
 
+    // const handleLogin = () => {
+    //     localStorage.setItem("auth", "token");
+    // };
+
+    // const handleLogOut = () => {
+    //     localStorage.removeItem("auth");
+    // };
+    // const isAuth = !!localStorage.getItem("auth");
+
     return (
         <CardWrapper>
             <Component
